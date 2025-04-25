@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP</title>
+    <link rel="stylesheet" href="signupStyle.css">
+</head>
+<body dir="rtl">
+    <div class="main-flex">
+        <div class="sign-up-form">
+            <h2>إنشاء حساب جديد</h2>
+            <form>
+    <label for="name">الإسم:</label> <br>
+    <input type="text" name="name" id="name" required>
+        <br>
+    <label for="email">البريد الإلكتروني:</label> <br>
+    <input type="email" name="email" id="email" required>
+        <br>
+              <label for="username">اسم المستخدم:</label><br>
+              <input type="text" name="username" id="username" required>
+        <br>
+              <label for="password">كلمة المرور:</label><br>
+              <input type="password" name="password" id="password" required>
+        <br>
+              <label for="type">ماهو النوع الذي تفضله؟</label> <br>
+              <select class="select-type" name="type" id="type">
+                <option value="action">أكشن</option>
+                <option value="drama">دراما</option>
+                <option value="comedy">كويدي</option>
+                <option value="horror">رعب</option>
+                <option value="historic">تاريخي</option>
+                <option value="anime">إنمي</option>
+                <option value="romance">رومانسي</option>
+              </select>
+        <br>
+        
+    </form>
+    <button class="form-btn" type="submit">تسجيل</button>
+    <div class="login">
+     <h6>هل لديك حساب بالفعل؟ <a href="" target="_blank" rel="noopener noreferrer">تسجيل دخول</a></h6>
+    </div>
+          </div>
+    </div>
+</div>
+</body>
+</html>
