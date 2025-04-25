@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("Netflix Indian Movies and Web Series.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sign-up-form{
+    background-color: rgba(255, 255, 255, 0.893);
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+}
+.form-btn{
+    border: none;
+    width: 15%;
+    height: 2rem;
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    background-color: #9E9E9E;
+}
+.form-btn:hover{
+    box-shadow: 0 0 15px rgba(82, 68, 69, 0.5);
+    cursor: pointer;
+}
+form input, .select-type{
+    border: none;
+    border: 1px solid rgb(155, 152, 152);
+    width: 90%;
+    height: 1.8rem;
+    outline: none;
+    border-radius: 1.8px;
+}
+.main-flex{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(73, 77, 77, 0.543);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+margin-bottom: 1.5%;
+text-decoration: none;
+}
